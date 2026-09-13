@@ -1,0 +1,12 @@
+node_id,node_type,name,parent_id
+ENT-001,Enterprise,Thermax Limited,
+SITE-001,Site,RTIC Catalyst Test Bed Facility,ENT-001
+AREA-001,Area,Gas Feed Section,SITE-001
+AREA-002,Area,Liquid Feed Section,SITE-001
+AREA-003,Area,Reactor-1 Section,SITE-001
+AREA-004,Area,Reactor-2 Section,SITE-001
+AREA-005,Area,Product Section,SITE-001
+AREA-006,Area,Sample Handling System 1,SITE-001
+AREA-007,Area,Sample Handling System 2,SITE-001
+AREA-008,Area,Legend / Notes,SITE-001
+AREA-009,Area,Instrument and Equipment List,SITE-001

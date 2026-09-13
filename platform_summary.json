@@ -1,0 +1,14 @@
+{
+  "drawings": 1,
+  "hierarchy_nodes": 11,
+  "asset_candidates": 73,
+  "tagged_candidates": 24,
+  "native_blocks": 49,
+  "relationships": 191,
+  "graph_nodes": 97,
+  "graph_edges": 191,
+  "pending_reviews": 73,
+  "live_timeseries_rows": 0,
+  "maintenance_rows": 0,
+  "truth_note": "No operational time-series, maintenance, KPI, or CNN results were fabricated."
+}
