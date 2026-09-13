@@ -9,9 +9,8 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(page_title="Thermax P&ID Intelligence",page_icon="⚙️",layout="wide")
-ROOT=Path(__file__).parent
-DATA=ROOT/"data"
-
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT
 @st.cache_data
 def load_data():
     assets=pd.read_csv(DATA/"asset_master.csv").fillna("")
