@@ -1,0 +1,768 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "Drawing",
+      "name": "Thermax Single Tube Reactor System_PID (004).dxf",
+      "id": "DRAWING-001"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Chiller",
+      "id": "CLASS-CHILLER"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Furnace",
+      "id": "CLASS-FURNACE"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Heat Exchanger",
+      "id": "CLASS-HEAT-EXCHANGER"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Interlock",
+      "id": "CLASS-INTERLOCK"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Level Gauge",
+      "id": "CLASS-LEVEL-GAUGE"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Motor",
+      "id": "CLASS-MOTOR"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Pressure Regulator",
+      "id": "CLASS-PRESSURE-REGULATOR"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Reactor",
+      "id": "CLASS-REACTOR"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Static Mixer",
+      "id": "CLASS-STATIC-MIXER"
+    },
+    {
+      "node_type": "AssetClass",
+      "name": "Vessel",
+      "id": "CLASS-VESSEL"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "HE-200",
+      "asset_class": "Heat Exchanger",
+      "confidence": 0.901,
+      "readiness": 0.676,
+      "x": 1385.997777722908,
+      "y": 282.6620856041223,
+      "id": "AST-0001"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "R-400",
+      "asset_class": "Reactor",
+      "confidence": 0.811,
+      "readiness": 0.486,
+      "x": 2415.488800997748,
+      "y": 269.3629749677548,
+      "id": "AST-0002"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "R-300",
+      "asset_class": "Reactor",
+      "confidence": 0.843,
+      "readiness": 0.548,
+      "x": 1885.243230088657,
+      "y": 269.3629749677548,
+      "id": "AST-0003"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "HE-401",
+      "asset_class": "Heat Exchanger",
+      "confidence": 0.969,
+      "readiness": 0.727,
+      "x": 2212.272389247696,
+      "y": 264.9569028440545,
+      "id": "AST-0004"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "I-13",
+      "asset_class": "Interlock",
+      "confidence": 0.95,
+      "readiness": 0.713,
+      "x": 2828.439944858537,
+      "y": 262.0360069301509,
+      "id": "AST-0005"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "M-401",
+      "asset_class": "Motor",
+      "confidence": 0.969,
+      "readiness": 0.726,
+      "x": 2216.120223737424,
+      "y": 255.2919638390449,
+      "id": "AST-0006"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "I-10",
+      "asset_class": "Interlock",
+      "confidence": 0.937,
+      "readiness": 0.703,
+      "x": 1740.502857451496,
+      "y": 248.1462656123366,
+      "id": "AST-0007"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "I-11",
+      "asset_class": "Interlock",
+      "confidence": 0.942,
+      "readiness": 0.707,
+      "x": 2148.553287596943,
+      "y": 248.1332327270523,
+      "id": "AST-0008"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "SM-200",
+      "asset_class": "Static Mixer",
+      "confidence": 0.909,
+      "readiness": 0.681,
+      "x": 1234.936206477963,
+      "y": 242.6471561431885,
+      "id": "AST-0009"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "LG-401",
+      "asset_class": "Level Gauge",
+      "confidence": 0.967,
+      "readiness": 0.726,
+      "x": 2202.889913303863,
+      "y": 214.8725183400391,
+      "id": "AST-0010"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "I-14",
+      "asset_class": "Interlock",
+      "confidence": 0.941,
+      "readiness": 0.706,
+      "x": 2837.081330380623,
+      "y": 206.0553734416119,
+      "id": "AST-0011"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "V-500",
+      "asset_class": "Vessel",
+      "confidence": 0.843,
+      "readiness": 0.548,
+      "x": 2790.51551914619,
+      "y": 199.8061893357171,
+      "id": "AST-0012"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "FRN-200",
+      "asset_class": "Furnace",
+      "confidence": 0.874,
+      "readiness": 0.623,
+      "x": 1290.997404235683,
+      "y": 181.6464221954346,
+      "id": "AST-0013"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "HE-700",
+      "asset_class": "Heat Exchanger",
+      "confidence": 0.802,
+      "readiness": 0.471,
+      "x": 3777.12606857304,
+      "y": 171.9085583580865,
+      "id": "AST-0014"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "HE-600",
+      "asset_class": "Heat Exchanger",
+      "confidence": 0.802,
+      "readiness": 0.471,
+      "x": 3283.601076794175,
+      "y": 171.8238736046685,
+      "id": "AST-0015"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "V-600",
+      "asset_class": "Vessel",
+      "confidence": 0.929,
+      "readiness": 0.697,
+      "x": 3445.914908790563,
+      "y": 145.5355436219109,
+      "id": "AST-0016"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "HE-402",
+      "asset_class": "Heat Exchanger",
+      "confidence": 0.835,
+      "readiness": 0.533,
+      "x": 2236.571502204835,
+      "y": 143.2457499047204,
+      "id": "AST-0017"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "FRN-300",
+      "asset_class": "Furnace",
+      "confidence": 0.947,
+      "readiness": 0.71,
+      "x": 1726.568945925746,
+      "y": 131.0572741508484,
+      "id": "AST-0018"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "PRV-105",
+      "asset_class": "Pressure Regulator",
+      "confidence": 0.802,
+      "readiness": 0.471,
+      "x": 2099.812831251943,
+      "y": 120.9674692465386,
+      "id": "AST-0019"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "HE-400",
+      "asset_class": "Heat Exchanger",
+      "confidence": 0.958,
+      "readiness": 0.718,
+      "x": 2278.527624613212,
+      "y": 98.12903214270445,
+      "id": "AST-0020"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "I-12",
+      "asset_class": "Interlock",
+      "confidence": 0.963,
+      "readiness": 0.722,
+      "x": 2155.76795677056,
+      "y": 72.18198748143396,
+      "id": "AST-0021"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "V-200",
+      "asset_class": "Vessel",
+      "confidence": 0.948,
+      "readiness": 0.711,
+      "x": 1113.869481857737,
+      "y": 58.01669692030795,
+      "id": "AST-0022"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "V-501",
+      "asset_class": "Vessel",
+      "confidence": 0.905,
+      "readiness": 0.679,
+      "x": 2948.759664400774,
+      "y": 54.36825438003141,
+      "id": "AST-0023"
+    },
+    {
+      "node_type": "Asset",
+      "tag": "CH-400",
+      "asset_class": "Chiller",
+      "confidence": 0.931,
+      "readiness": 0.698,
+      "x": 2201.749188522917,
+      "y": 44.96125149726867,
+      "id": "AST-0024"
+    }
+  ],
+  "links": [
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0001",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0001",
+      "target": "CLASS-HEAT-EXCHANGER",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.489,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0001",
+      "target": "AST-0013",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0002",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0002",
+      "target": "CLASS-REACTOR",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.44,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0002",
+      "target": "AST-0006",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0003",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0003",
+      "target": "CLASS-REACTOR",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.483,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0003",
+      "target": "AST-0007",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0004",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0004",
+      "target": "CLASS-HEAT-EXCHANGER",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.592,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0004",
+      "target": "AST-0006",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0005",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0005",
+      "target": "CLASS-INTERLOCK",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.555,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0005",
+      "target": "AST-0011",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0006",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0006",
+      "target": "CLASS-MOTOR",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.566,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0006",
+      "target": "AST-0010",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0007",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0007",
+      "target": "CLASS-INTERLOCK",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0008",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0008",
+      "target": "CLASS-INTERLOCK",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.549,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0008",
+      "target": "AST-0010",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0009",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0009",
+      "target": "CLASS-STATIC-MIXER",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.534,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0009",
+      "target": "AST-0013",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0010",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0010",
+      "target": "CLASS-LEVEL-GAUGE",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0011",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0011",
+      "target": "CLASS-INTERLOCK",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.562,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0011",
+      "target": "AST-0012",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.449,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0011",
+      "target": "AST-0023",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0012",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0012",
+      "target": "CLASS-VESSEL",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0013",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0013",
+      "target": "CLASS-FURNACE",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.427,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0013",
+      "target": "AST-0022",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0014",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0014",
+      "target": "CLASS-HEAT-EXCHANGER",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.334,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0014",
+      "target": "AST-0016",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0015",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0015",
+      "target": "CLASS-HEAT-EXCHANGER",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.468,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0015",
+      "target": "AST-0016",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0016",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0016",
+      "target": "CLASS-VESSEL",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0017",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0017",
+      "target": "CLASS-HEAT-EXCHANGER",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.551,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0017",
+      "target": "AST-0020",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0018",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0018",
+      "target": "CLASS-FURNACE",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0019",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0019",
+      "target": "CLASS-PRESSURE-REGULATOR",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.541,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0019",
+      "target": "AST-0021",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0020",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0020",
+      "target": "CLASS-HEAT-EXCHANGER",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0021",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0021",
+      "target": "CLASS-INTERLOCK",
+      "key": 0
+    },
+    {
+      "relationship": "CONNECTED_TO_CANDIDATE",
+      "confidence": 0.557,
+      "review_status": "ENGINEERING_REVIEW_REQUIRED",
+      "source": "AST-0021",
+      "target": "AST-0024",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0022",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0022",
+      "target": "CLASS-VESSEL",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0023",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0023",
+      "target": "CLASS-VESSEL",
+      "key": 0
+    },
+    {
+      "relationship": "SHOWN_ON",
+      "confidence": 1.0,
+      "source": "AST-0024",
+      "target": "DRAWING-001",
+      "key": 0
+    },
+    {
+      "relationship": "TYPE_OF",
+      "confidence": 0.92,
+      "source": "AST-0024",
+      "target": "CLASS-CHILLER",
+      "key": 0
+    }
+  ]
+}

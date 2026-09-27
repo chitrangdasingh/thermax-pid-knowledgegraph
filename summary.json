@@ -1,0 +1,29 @@
+{
+  "source_file": "Thermax Single Tube Reactor System_PID (004).dxf",
+  "mode": "FLATTENED_VECTOR_DXF",
+  "entity_count": 13985,
+  "entity_types": {
+    "SOLID": 1323,
+    "LWPOLYLINE": 11059,
+    "MTEXT": 636,
+    "CIRCLE": 149,
+    "ARC": 38,
+    "ELLIPSE": 8,
+    "LINE": 487,
+    "TEXT": 212,
+    "INSERT": 49,
+    "HATCH": 3,
+    "OLE2FRAME": 10,
+    "IMAGE": 10
+  },
+  "text_records": 848,
+  "process_assets": 24,
+  "asset_classes": 10,
+  "geometry_objects": 13064,
+  "process_line_segments": 53958,
+  "preliminary_connections": 16,
+  "graph_nodes": 35,
+  "graph_edges": 64,
+  "pending_reviews": 24,
+  "warning": "Symbol class is inferred from tag prefix and local vector evidence; topology requires engineering review."
+}
