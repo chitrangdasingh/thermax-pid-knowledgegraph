@@ -1,0 +1,21 @@
+services:
+  dashboard:
+    build:
+      context: .
+      args:
+        INSTALL_VISION: "false"
+        INSTALL_GRAPHRAG: "false"
+    ports:
+      - "8501:8501"
+    environment:
+      PID_REVIEW_TOKEN: ${PID_REVIEW_TOKEN:-}
+      AZURE_PID_SERVICE_URL: ${AZURE_PID_SERVICE_URL:-}
+      AZURE_PID_API_KEY: ${AZURE_PID_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-}
+    volumes:
+      - pid_runtime:/app/runtime
+    restart: unless-stopped
+
+volumes:
+  pid_runtime:

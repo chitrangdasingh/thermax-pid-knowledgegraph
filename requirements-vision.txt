@@ -1,0 +1,6 @@
+-r requirements.txt
+opencv-python-headless>=4.10,<5
+pytesseract>=0.3.13,<1
+torch>=2.2,<3
+torchvision>=0.17,<1
+requests>=2.32,<3

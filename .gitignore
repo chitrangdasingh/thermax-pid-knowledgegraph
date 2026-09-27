@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+runtime/
+external/
+runs/
+yolov5_runs/
+*.pt
+.streamlit/secrets.toml
+.env

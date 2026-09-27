@@ -1,0 +1,10 @@
+{
+  "status": "DRAFT",
+  "approved_by": "",
+  "approved_at": "",
+  "drawing_count": 0,
+  "split_by_drawing": true,
+  "license_confirmed": false,
+  "negative_examples": false,
+  "notes": "Copy beside data.yaml and complete truthfully after engineering review. DRAFT will not train."
+}

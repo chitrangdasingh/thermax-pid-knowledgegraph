@@ -1,0 +1,4 @@
+-r requirements.txt
+neo4j>=5.20,<7
+pydexpi>=1,<2
+google-genai>=1,<2

@@ -1,0 +1,35 @@
+system: Catalytic Single Tube Reactor
+knowledge_status: ENGINEERING_REVIEW_REQUIRED
+calculations:
+  methanol_conversion:
+    equation: X_MeOH = (F_in*z_MeOH_in - F_out*z_MeOH_out) / (F_in*z_MeOH_in)
+    basis: molar
+    required_signals:
+      - inlet total molar flow
+      - inlet methanol mole fraction
+      - outlet total molar flow
+      - outlet methanol mole fraction
+      - timestamp and timezone
+      - quality code and operating-state flag
+    assumptions_to_validate:
+      - steady-state window
+      - same dry/wet analytical basis
+      - calibrated flow and composition instruments
+      - no unmeasured methanol side stream
+  selectivity:
+    status: PRODUCT_SPECIES_AND_CARBON_BALANCE_REQUIRED
+  space_time_yield:
+    status: PRODUCT_FLOW_AND_CATALYST_MASS_REQUIRED
+safety_policy:
+  outputs: Draft review prompts only
+  forbidden_claims:
+    - automatic HAZOP completion
+    - safety integrity level determination
+    - relief sizing from drawing geometry
+    - control action without approved cause-and-effect logic
+integration_targets:
+  - historian or SCADA read-only connector
+  - equipment and instrument registers
+  - line list and valve list
+  - maintenance or EAM system
+  - Aspen or validated kinetic model

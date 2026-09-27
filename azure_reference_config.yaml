@@ -1,0 +1,18 @@
+repositories:
+  training:
+    url: https://github.com/Azure-Samples/MLOpsManufacturing
+    subpath: samples/amlv2_pid_symbol_detection_train
+  inference:
+    url: https://github.com/Azure-Samples/digitization-of-piping-and-instrument-diagrams
+    guide: docs/user-guide.md
+inference_routes:
+  symbol: /api/pid-digitization/symbol-detection/{pid_id}
+  text: /api/pid-digitization/text-detection/{pid_id}
+  graph: /api/pid-digitization/graph-construction/{pid_id}
+  persist: /api/pid-digitization/graph-persistence/{pid_id}
+manual_review_gates:
+  - symbol bounding boxes and labels
+  - OCR text and tag association
+  - line segments and graph connections
+  - flow direction and graph persistence
+deployment_status: NOT_DEPLOYED_BY_THIS_PACKAGE
